@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    height: 97vh;
+    font-family: Oblique, sans-serif;
+}
+header {
+    display: flex;
+    height: 60px;
+    background-color: #b0d9b1;
+    align-items: center;
+    justify-content: end;
+}
+header div {
+    display: flex;
+    width: 320px;
+    margin: 10px 0;
+    justify-content: space-around;
+}
+header a {
+    color: #186f65;
+    text-decoration: none;
+}
+main {
+    width: 75%;
+    height: 70%;
+    margin: auto;
+    padding: 20px 0;
+    justify-content: center;
+}
+main img {
+    display: block;
+    margin: auto;
+    width: 120px;
+    border-radius: 50%;
+}
+footer {
+    height: 100px;
+    color: #186f65;
+    padding: 15px 0;
+    background-color: #b0d9b1;
+}
+footer div {
+    display: flex;
+    width: 200px;
+    margin: auto;
+    justify-content: space-around;
+}
+p {
+    text-align: center;
+}
+a {
+    color: black;
+}
+li {
+    font-size: 20px;
+    line-height: 1.5;
+}
+img {
+    width: 30px;
+}
+table, th, tr, td {
+    border: 1px solid;
+}
+
+@font-face {
+    font-family: 'Oblique';
+    src: url('Oblique.ttf');
+}
